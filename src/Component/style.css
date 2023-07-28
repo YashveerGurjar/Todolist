@@ -1,0 +1,68 @@
+
+body {
+    background-color: #141225;
+    background-image: url(images/todo.jpg);
+     background-repeat: no-repeat;
+    background-size:cover;
+  
+  
+    font-family: sans-serif;
+  }
+  .container {
+    /* display: block; */
+    color: #ffffff;
+    width: 350px;
+    margin: 100px auto 0;
+    padding: 5px;
+    /* box-shadow: 10px 10px 10px  5px rgb(59, 59, 59) ; */
+    /* background-color: rgba(116, 114, 114, 0.219); */
+    border-radius: 10px;
+    /* transform: translate(-50%, -50%); */
+     box-shadow:  5px 5px 10px #fff; 
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(160, 150, 150, 0.253);
+    backdrop-filter: blur(5px);
+  }
+ 
+  label {
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 2px solid #b4b3b3;
+    padding: 10px 0 10px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  input[type="text"] {
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 50px;
+    font-family: Lato, sans-serif;
+    color: #888;
+  }
+  input[type="text"]:focus {
+    color: #333;
+  }
+  label {
+    display: block;
+    margin: 0 0 20px;
+  }
+
+.task .edit{
+    border:2px solid #fff;
+    border-radius: 50px;
+    padding: 10px;
+   
+    margin:10px;
+}
+
+button{
+  text-align: center;
+  margin-left: 140px;
+  border-radius: 50%;
+}
